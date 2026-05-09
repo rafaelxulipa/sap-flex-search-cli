@@ -1,0 +1,6 @@
+[settings]
+# This creates the .venv if it doesn't exist and sources it automatically
+python.uv_venv_auto = "create|source"
+
+[tools]
+python = "latest"

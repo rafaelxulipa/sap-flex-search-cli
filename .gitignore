@@ -1,0 +1,41 @@
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+__pycache__/
+
+# Virtualenv
+.venv/
+
+# Build artifacts
+build/
+dist/
+*.egg
+*.egg-info/
+src/*.egg-info/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# Secrets
+.env
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
